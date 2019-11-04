@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JSONATA Transform Generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="headText">
+        <h1>Transform Generator</h1>
+        <h2>Please map the percipio standard attributes with the available provider attributes</h2>
+    </div>
+    
+    <div>
+            <table class="mapTable" cellspacing="30">
+                    <th class="tableHeader">Percipio Standard Fields</th>
+                    <th class="tableHeader">Provider Fields</th>
+                    <tr class="tableRow">
+                        <td>
+                            Title
+                        </td>
+                        <td>
+                            <select name="providerFields" id="providerFields">
+                                <option value="title">element.title</option>
+                                <option value="description">element.description</option>
+                                <option value="description">element.author</option>
+                                <option value="title">element.url</option>
+                                <option value="title">element.image</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="tableRow">
+                        <td>
+                            Description
+                        </td>
+                        <td>
+                            <select name="providerFields" id="providerFields">
+                                <option value="description">element.description</option>
+                                <option value="title">element.title</option>
+                                <option value="description">element.author</option>
+                                <option value="title">element.url</option>
+                                <option value="title">element.image</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="tableRow">
+                            <td>
+                                Author
+                            </td>
+                            <td>
+                                <select name="providerFields" id="providerFields">
+                                    <option value="description">element.author</option>
+                                    <option value="title">element.title</option>                        
+                                </select>
+                            </td>
+                    </tr>
+                    <tr class="tableRow">
+                            <td>
+                                URL
+                            </td>
+                            <td>
+                                <select name="providerFields" id="providerFields">
+                                    <option value="title">element.url</option>
+                                    <option value="description">element.description</option>
+                                </select>
+                            </td>
+                    </tr>
+                    <tr class="tableRow">
+                            <td>
+                                Image URL
+                            </td>
+                            <td>
+                                <select name="providerFields" id="providerFields">
+                                    <option value="title">element.image</option>
+                                    <option value="description">element.description</option>
+                                </select>
+                            </td>
+                    </tr>
+                </table>
+    </div>
+    <div class="submitBtn">
+        <button type="submit" class="sub-button">Generate Transform</button>
+    </div>
+    
+  </body>
+</html>
