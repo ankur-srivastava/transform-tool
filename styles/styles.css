@@ -1,0 +1,47 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.headText {
+    background-color: #4287f5;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.mapTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableHeader {
+    margin: 5 10 5 0;
+    padding: 10px 20px 40px 10px;
+    color: #4287f5;
+    font-size: 1.5rem;
+}
+
+.tableRow {
+    padding: 10px 20px 40px 10px;
+}
+
+.submitBtn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sub-button {
+    background-color: #4287f5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
